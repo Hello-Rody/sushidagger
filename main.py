@@ -7,10 +7,10 @@ import datetime
 import pyocr
 import re
 
-url_easy = "sushida/Play_easy.html"
-url_normal = "sushida/Play_normal.html"
-url_hard = "sushida/Play_hard.html"
-url_pop = "sushida/pop.html"
+url_easy = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_easy.htmll"
+url_normal = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_normal.html"
+url_hard = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_hard.html"
+url_pop = "http://firefoxhome.html.xdomain.jp/sushidagger/pop.html"
 
 sushi_url = "https://sushida.net/play.html"
 pop_url = "http://typingx0.net/pop/"
@@ -29,7 +29,7 @@ banner = """                        __    _     __
                                         /____//____/  """
 
 author = """
-                By: Rody (GitHub @Hello-Rody)"""
+                By: Rody (GitHub @Hello-Rody)\n"""
 
 
 def binarization(img):
@@ -67,7 +67,6 @@ def on_scroll(x, y, dx, dy):
 
 
 # リスナー起動
-# Collect events until released
 # クリック座標を取得
 def point():
     with mouse.Listener(
