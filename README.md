@@ -14,8 +14,7 @@
 > デフォルトでOK
 
 ・Windows
-> main.pyの10~13行目のスラッシュをバックスラッシュにする
-18行目を`pyocr.tesseract.TESSERACT_CMD = r'C:\Program Files\Tesseract-OCR\tesseract.exe'`に書き換える
+> 18行目を`pyocr.tesseract.TESSERACT_CMD = r'C:\Program Files\Tesseract-OCR\tesseract.exe'`に書き換える
 
 ### 実行
 ブラウザのウィンドウと実行するターミナルのウィンドウは被せないように
