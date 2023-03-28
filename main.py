@@ -7,7 +7,7 @@ import datetime
 import pyocr
 import re
 
-url_easy = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_easy.htmll"
+url_easy = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_easy.html"
 url_normal = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_normal.html"
 url_hard = "http://firefoxhome.html.xdomain.jp/sushidagger/Play_hard.html"
 url_pop = "http://firefoxhome.html.xdomain.jp/sushidagger/pop.html"
